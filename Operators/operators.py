@@ -23,7 +23,7 @@ gallons = 12.5 / 3.7
 print(f"How many gallons do I need? Well, after careful consideration and having {liters} liters, I have come to realized that...")
 print('THINKING NOW.....', end='\r')
 time.sleep(4)
-#foreground
+#foreground => getting ceiling
 print("\033[1;31;40mI need {} gallons".format(int(math.ceil(gallons))))
 print("\033[1;32;40mI need {} gallons".format(int(math.ceil(gallons))))
 print("\033[1;33;40mI need {} gallons".format(int(math.ceil(gallons))))
