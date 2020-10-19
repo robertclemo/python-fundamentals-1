@@ -39,4 +39,5 @@ print("\033[1;30;43mI need {} gallons".format(int(math.ceil(gallons))))
 print("\033[1;30;44mI need {} gallons".format(int(math.ceil(gallons))))
 print("\033[1;30;45mI need {} gallons".format(int(math.ceil(gallons))))
 print("\033[1;30;46mI need {} gallons".format(int(math.ceil(gallons))))
-print("\033[1;30;47mI need {} gallons".format(int(math.ceil(gallons))))
+print("\033[1;30;47mI need {} gallons\033[0m".format(int(math.ceil(gallons))))
+
