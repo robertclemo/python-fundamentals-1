@@ -9,7 +9,7 @@ print('''This is \033[1;35;40mtriple quotes''') # => prints This is triple quote
 
 name = "\033[0mRobert"
 lname = "Clemo"
-print(name + " " + lname) # => Concatenation = append strings
+print(name + " " + lname) # => Concatenation = append strings => Robert Clemo
 
 
 # \033[0m => this sets color to normal (regular)
@@ -36,3 +36,29 @@ print("What is the value of name4?") # => returns name4 is Carlos
 print(f'name4 is {name4}')
 print("What is the value of name1?") # => returns name1 is Carlos
 print(f'name1 is {name1}')
+
+apple = "4"
+orange = "6"
+print(apple + orange) # => strings => returns 46 = appleorange = 46
+
+apple = "I am"
+orange = "happy"
+print(apple + orange) # => returns I amhappy
+
+apple = int("4")
+orange = int("6")
+print(apple + orange) # => (integers) 4 + 6 => returns 10
+weirdText = "lAJELajdlajlkdlkaDLKajdj 293498237498723894789237 122232323222@@@@@@@@@??????//////////"
+print(weirdText + "This is really weird") # => concatenating strings
+# returns lAJELajdlajlkdlkaDLKajdj 293498237498723894789237 122232323222@@@@@@@@@??????//////////This is really weird
+
+num1 = int("100")
+num2 = int("50")
+print(num1 + num2) #100 + 50 => 150, "100" + "50" => 10050 
+
+print(type("100")) # returns <class 'str'>
+print(type("50")) # returns <class 'str'>
+print(type(100)) # returns <class 'int'>
+print(type(True)) # returns <class 'bool'>
+print(type(4.6)) # returns <class 'float'>
+
