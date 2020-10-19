@@ -97,3 +97,8 @@ num1 %= 3 # => num = num1 % 3 => 10 % 3 => 10 /3 => remaind = 1
 print('Doing the modulus now...', end='\r')  # 10
 time.sleep(3)
 print(f'The value of num1 is {int(num1)} ')  # 1
+
+total = 10 / 5 * 2 # => returns 4 => 10 / 5 = 2, 2 * 2 = 4
+total = 10 / (5 * 2) # => returns 1, 5 * 2 = 10 => 10/10 => 1
+total = 10 * 5 / 2 # => returns 25, 10 * 5 = 50, 50 / 2 = 25
+print(f'total is {total}')# => prints total is 25
