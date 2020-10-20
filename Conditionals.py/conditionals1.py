@@ -1,8 +1,10 @@
+from data import *
+
 import os
 os.system('clear')
 
 counter = 1
-days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+
 
 print('******** WELCOME TO MY RESTAURANT ********* ')
 print('''
