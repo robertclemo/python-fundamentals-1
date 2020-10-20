@@ -34,3 +34,7 @@ for element in myNewDisctionary:
 # Prints key and value from Dictionary
 for i in myNewDisctionary:
     print(i, myNewDisctionary[i])
+
+# Prints key and value from Dictionary
+for key, value in myNewDisctionary.items():
+    print(f"\"{key}\": \"{value}\"")
