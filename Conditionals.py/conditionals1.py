@@ -22,6 +22,7 @@ if(reservation.upper() == 'M'):
     print(f'We see that you want to make a reservation on {days[0]}')
 elif (reservation.upper() == 'T'):
     exactChoice = int(input("Do you mean Tuesday or Thursday? >> (1 for Tuesday or 2 for Thursday) "))
+    # nested if statements
     if (exactChoice == 1):
         print(f'We see that you want to make a reservation on {days[1]}')
     else:
