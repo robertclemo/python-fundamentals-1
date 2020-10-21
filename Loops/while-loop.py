@@ -51,3 +51,13 @@ for person in people:
      {nameListCounter}. {person}''')
     nameListCounter += 1
 
+
+while True:
+    print('Hello')
+    break;
+
+
+num = 10
+while num > 10:
+    print("HHHHHHHHHHHHHHHHHH")
+
