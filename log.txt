@@ -1,0 +1,11 @@
+
+User dunieski logged in on 2020-10-21 15:25:09.755599 and it was successful
+User dunieski logged in on 2020-10-21 15:25:44.012714 and it was successful
+User dunieski logged in on 2020-10-21 15:31:39.839567 and it was unsuccessful
+User dunieski logged in on 2020-10-21 15:31:53.948034 and it was unsuccessful
+User dunieski logged in on 2020-10-21 15:32:07.492304 and it was successful
+User dunieski logged in on 2020-10-21 15:34:25.736877: Failure
+User dunieski logged in on 2020-10-21 15:34:43.387694: Success
+User dunieski logged in on 2020-10-21 15:36:39.379842: Failure
+User adasd logged in on 2020-10-21 15:37:34.652461: Failure
+User dunieskio logged in on 2020-10-21 15:38:04.557660 - Result: Failure
