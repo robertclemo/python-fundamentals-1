@@ -32,4 +32,6 @@ for team in range(3):
         printTeam(team3)
     print('')
     teamCounter+=1
+
+    
     
