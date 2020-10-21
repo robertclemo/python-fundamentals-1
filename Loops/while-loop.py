@@ -57,7 +57,7 @@ while True:
     break;
 
 
-num = 10
-while num > 10:
-    print("HHHHHHHHHHHHHHHHHH")
+# num = 10
+# while num > 10:
+#     print("HHHHHHHHHHHHHHHHHH") => This will never execute because the boolean num > 10 is always false
 
