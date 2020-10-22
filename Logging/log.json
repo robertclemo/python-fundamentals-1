@@ -1,0 +1,19 @@
+[{
+    "name": "Dunieski",
+    "age": 30,
+    "Education_Level": "Master's Degree",
+    "SSN": "12321983792174"
+},
+{
+    "name": "Orlando",
+    "age": 24,
+    "Education_Level": "Bachelor's Degree",
+    "SSN": "2432424234"
+
+},
+{
+    "name": "Julio",
+    "age": 35,
+    "Education_Level": "Bachelor's Degree",
+    "SSN": "437534759347593"
+}]

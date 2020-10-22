@@ -1,5 +1,2 @@
 I am learning to use files
-And I am enjoying it
-Hello
-Hi
-Dunieski
+python -u "/Users/dunieskiotano/Desktop/Python Fundamentals/Modules and Libraries/os-module.py"
