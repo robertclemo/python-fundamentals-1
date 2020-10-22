@@ -2,7 +2,6 @@ import os
 from os import system
 
 system('clear')
-
 with open('file3.txt', 'w') as file:
     file.write("I am learning to use files")
     file.close
