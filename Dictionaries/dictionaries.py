@@ -38,3 +38,10 @@ for i in myNewDisctionary:
 # Prints key and value from Dictionary
 for key, value in myNewDisctionary.items():
     print(f"\"{key}\": \"{value}\"")
+
+
+
+# destructuring
+params = {'a': 1, 'b': 2}
+a, b = params.values()
+print(a, b)

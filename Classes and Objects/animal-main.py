@@ -28,7 +28,6 @@ for a in range(number_of_animals):
 for animal in animalList:
 
     print(f'''
-
         Breed:............ {animal.getBreed()}
         Name:............. {animal.getName()}
         Size:............. {animal.getSize()}
@@ -36,6 +35,11 @@ for animal in animalList:
         Temperament....... {animal.getTemperament()}
     
     ''')
+
+    params = {'a': 1, 'b': 2}
+    a, b = params.values()
+
+    print(a, b)
 
 
 
