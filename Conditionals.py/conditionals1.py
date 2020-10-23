@@ -42,6 +42,3 @@ elif (reservation.upper() == 'S'):
         print(f'We see that you want to make a reservation on {days[6]}')
 else:
     print('Invalid selection')
-
-
-

@@ -14,3 +14,4 @@ print(f'{result} has type: {type(result)}')
 myString = '56'
 result = loads(myString)
 print(f'{myString} has type: {type(result)}')
+
