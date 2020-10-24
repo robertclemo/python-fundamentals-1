@@ -45,3 +45,8 @@ for key, value in myNewDisctionary.items():
 params = {'a': 1, 'b': 2}
 a, b = params.values()
 print(a, b)
+
+names = "How are you?"
+a,b,c = names.split()
+print(a, b, c)
+

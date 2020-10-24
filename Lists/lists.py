@@ -35,3 +35,8 @@ for team in range(3):
 
     
     
+
+myList = ["a", "b", "c"]
+#By using the destructuring syntax in the enumerate function below, we’re able to access elements in a way that’s more concise and easy to comprehend.
+for i, element in enumerate(myList):
+	print(i, element)
