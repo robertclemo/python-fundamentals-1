@@ -23,7 +23,7 @@ def printTeam(team):
         
 
 for team in range(3):
-    print('\033[0;31;40mTeam' + f' # {teamCounter}')
+    print('\033[0;31;40mTeam' + f' # {teamCounter}\033[33')
     if teamCounter == 1:
         printTeam(team1)
     elif teamCounter == 2:
@@ -40,3 +40,13 @@ myList = ["a", "b", "c"]
 #By using the destructuring syntax in the enumerate function below, we’re able to access elements in a way that’s more concise and easy to comprehend.
 for i, element in enumerate(myList):
 	print(i, element)
+
+
+# you can ignore many values using the *_ syntax in the assignment:
+a, *_, b = [1, 2, 3, 4, 5]
+print(a, b)
+
+# Prints: 1
+a, *_ = [1, 2, 3, 4, 5]
+print(a)
+# Prints: 1

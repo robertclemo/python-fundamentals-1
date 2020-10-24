@@ -36,11 +36,7 @@ for animal in animalList:
     
     ''')
 
-    params = {'a': 1, 'b': 2}
-    a, b = params.values()
-
-    print(a, b)
-
+  
 
 
     
