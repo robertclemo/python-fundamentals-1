@@ -28,6 +28,9 @@ from os import environ
 # export DB_PORT="database_port"
 # ***** END OF WINDOWS *********
 
+# ** ANOTHER WAY TO INSTALL python-dotenv
+# conda install -c conda-forge python-dotenv
+
 # *********** MacOS ****************
 conn = psycopg2.connect(
     database = environ.get('DB_NAME'),  
