@@ -1,4 +1,4 @@
 # mysql connection environment variables
-mysql-connection.py
+mysql_connection.py
 # environment variable file
 .env
