@@ -92,7 +92,7 @@ for car in carList:
     Year......{car.getYear()}
     Color......{car.getColor()}
     ''')
-print(f''' 
+print(f'''
     ******* ORDER SUMMARY ********
     Veteran.............. {vetOrNotVet.upper()}
     Veteran Bonus........${bonusforVet}
