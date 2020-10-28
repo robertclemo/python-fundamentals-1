@@ -60,8 +60,6 @@ def calculateTotalPrice(price, color, warVetOrDisable):
 
 def checkInventory(value, collection):
     field = str(input(f'What is the {value}? >> '))
-    print(field.capitalize())
-    print(field.upper())
     while True:
         if(field.upper() not in collection):
             print(f'{value} is not found in our records. Please try again')
