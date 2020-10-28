@@ -15,20 +15,20 @@ def createObject(make, model, year, color, originalPrice, totalPrice, bonus, add
     return car 
 
 
-def calculateTotalPrice(price, color, warVetOrDisable):
+def calculateTotalPrice(price, color, warVetOrDisabled):
     bonus = 0
     totalPrice = 0
     additionalDiscount = 0
     subtotal = 0
     taxes = .07
-    if(str.upper(color) == "BLACK" and warVetOrDisable == False):
+    if(str.upper(color) == "BLACK" and warVetOrDisabled == False):
         additionalDiscount = price*.25
         subtotal = price-additionalDiscount
         totalPrice =  subtotal + (subtotal * taxes)
         print(
             f"As you chose {color}, you have a discount of 25% which is ${additionalDiscount} ")
 
-    elif(str.upper(color) == "BLACK" and warVetOrDisable):
+    elif(str.upper(color) == "BLACK" and warVetOrDisabled):
         bonus = 500
         additionalDiscount = price*.25
         subtotal = price - bonus - additionalDiscount
@@ -37,14 +37,14 @@ def calculateTotalPrice(price, color, warVetOrDisable):
         As you chose {color}, you have a discount of 25% which is ${additionalDiscount} 
         and as you are a veteran or disabled you get an extra bonus of ${bonus}''')
 
-    elif(str.upper(color) == "WHITE" and warVetOrDisable == False):
+    elif(str.upper(color) == "WHITE" and warVetOrDisabled == False):
         bonus = 400
         subtotal = price - 400
         totalPrice =  subtotal + (subtotal * taxes)
         print(Fore.YELLOW, f"As you chose {color}, you have a discount of ${bonus}")
         print(Style.RESET_ALL)
 
-    elif(str.upper(color) == "WHITE" and warVetOrDisable):
+    elif(str.upper(color) == "WHITE" and warVetOrDisabled):
         bonus = 500
         additionalDiscount = price * .25
         subtotal= price - bonus - additionalDiscount
