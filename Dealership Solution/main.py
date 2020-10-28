@@ -70,7 +70,7 @@ def calculateTotalPrice(colorPrice, color):
         total = total + (subtotal  +  (subtotal * taxes))
     return colorPrice, vetOrNotVet, bonusforVet, discount, subtotal, taxes, taxesAmount, downpayment, bonus, total 
 
-
+# loop
 for i in range(amount_of_cars):
     make = str(input('What is the make? >> '))
     model = str(input('What is the model? >> '))
@@ -103,6 +103,8 @@ print(f'''
     Taxes............... % {taxes} = {round(taxesAmount, 2)}
     Subtotal............ ${round(subtotal, 2)}
     Grand Total......... ${round(total, 2)}''')
+
+    print('Hi')
     
 
 
