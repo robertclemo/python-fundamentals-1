@@ -1,0 +1,5 @@
+carInventoryList = ['BMW', 'MERCEDES', 'TOYOTA', 'NISSAN', 'KIA']
+carModels = ['I750', 'C500', 'CAMRY', 'SENTRA', 'OPTIMA']
+carColors = ['BLACK', 'GOLD', 'SILVER', 'WHITE', 'BLUE']
+carYears = ['2020', '2019', '2021', '2017', '2010']
+carBasePrices = [18999, 20199, 15999, 25999, 21999]
