@@ -104,7 +104,7 @@ print(f'''
     Subtotal............ ${round(subtotal, 2)}
     Grand Total......... ${round(total, 2)}''')
 
-    print('Hi')
+print('Hi')
     
 
 
