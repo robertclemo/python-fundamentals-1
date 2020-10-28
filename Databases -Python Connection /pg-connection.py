@@ -1,7 +1,11 @@
 import psycopg2
 import os
-from os import getenv
+from os import getenv, system
 from os import environ
+import getpass
+from getpass import getpass 
+
+
 
 # **** WINDOWS ******
 # Download Anaconda and then install psycopg2
@@ -46,14 +50,16 @@ conn = psycopg2.connect(
 def retrieveUser():
     try: 
         cursor = conn.cursor()
-        cursor.execute('SELECT * FROM users')
+        cursor.execute('SELECT * FROM users ORDER BY userid')
         rows = cursor.fetchall()
         if(rows):
             for row in rows:
                 print(f'''
                 Id:..............{row[0]}
-                username:........{row[1]}
-                password:........{row[2]} 
+                First Name:........{row[1]}
+                Last Name:........{row[2]} 
+                Username:........{row[3]}
+                Password:........{row[2]}
                 ''')
             cursor.close()
         else:
@@ -69,3 +75,8 @@ def retrieveUser():
 
 
 retrieveUser()
+
+
+
+
+

@@ -1,0 +1,4 @@
+# mysql connection
+mysql-connection.py
+# environment variables
+.env

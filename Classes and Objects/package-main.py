@@ -22,3 +22,5 @@ for package in packageList:
         Height: {package.getHeight()}
         Weight: {package.getWeight()}
     ''')
+
+print(packageList[0].getHeight())

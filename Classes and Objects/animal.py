@@ -1,11 +1,13 @@
 class Animal:
 
     def __init__(self, breed = None, name = None, size = None, age = None, temperament = None):
+        # as fas as database table is concerned, the following are either fields, attributes or columns
         self.breed = breed
         self.name = name
         self.size = size 
         self.age = age 
         self.temperament = temperament
+    
     
 
     def setBreed(self, breed):
